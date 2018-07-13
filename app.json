@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff5402",
+    "navigationBarTitleText": "天乐逸居",
+    "navigationBarTextStyle":"wihte"
+  },
+  "tabBar": {
+    "color": "#333d47",
+    "selectedColor": "#ff5402",
+    "borderStyle": "#f5f5f5",
+    "backgroundColor": "#f5f5f5",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/first_1.png",
+        "selectedIconPath": "images/first_0.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/follow_1.png",
+        "selectedIconPath": "images/follow_0.png",
+        "text": "关注"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/me_1.png",
+        "selectedIconPath": "images/me_0.png",
+        "text": "我的"
+      }
+    ]
+  }
+
+}
